@@ -2,15 +2,15 @@ using System;
 
 class Employee {
 
-  public string firstname;
-  public string lastname;
-  public string id;
-  public int age;
-  public string address;
-  public string phonenumber;
-  public string title;
-  public double yearlysalary;
-  public string employmentstatus;
+  private string firstname;
+  private string lastname;
+  private string id;
+  private int age;
+  private string address;
+  private string phonenumber;
+  private string title;
+  private double yearlysalary;
+  private string employmentstatus;
 
   public Employee()
   {
@@ -31,7 +31,7 @@ class Employee {
 
   public void Intro()
   {
-    Console.WriteLine("First name: " + firstname);
+    Console.WriteLine("First Name: " + firstname);
     Console.WriteLine("Last Name: " + lastname);
     Console.WriteLine("ID: " + id);
     Console.WriteLine("Age: " + age);
