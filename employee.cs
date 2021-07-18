@@ -9,7 +9,7 @@ class Employee {
   private string address;
   private string phonenumber;
   private string title;
-  private double yearlysalary;
+  private int yearlysalary;
   private string employmentstatus;
 
   public Employee()
